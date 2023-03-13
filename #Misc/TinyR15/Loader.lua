@@ -27,7 +27,7 @@ getfenv().ToRemove = {
     {"BodyDepthScale",1 * 1.0}
 }
 
-getfenv().AlwaysOn = true --// Enabling this will make you smaller after character reset.
+getfenv().AlwaysOn = true --// Enabling this can sometimes make you smaller after character reset.
 
 --//Loadstring
 loadstring(game:HttpGet('https://raw.githubusercontent.com/NoclippyT/Scripts/main/%23Misc/TinyR15/Main.lua'))()
