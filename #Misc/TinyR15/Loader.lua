@@ -22,9 +22,9 @@ Proportions: 0%
 
 --//Settings
 getfenv().ToRemove = {
-    {"BodyTypeScale",0.5 * 1.0},
-    {"BodyWidthScale",1 * 1.0},
-    {"BodyDepthScale",1 * 1.0}
+    {"BodyTypeScale", 0.5 * 1.0},
+    {"BodyWidthScale", 1 * 1.0},
+    {"BodyDepthScale", 1 * 1.0}
 }
 
 getfenv().AlwaysOn = true --// Enabling this can sometimes make you smaller after character reset.
