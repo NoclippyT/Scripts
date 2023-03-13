@@ -31,10 +31,12 @@ local function RemoveScale()
 end
 
 function TinyR15()
-    for _, PropScale in pairs(ToRemove) do
-        RemoveScale()
-        LPHum:FindFirstChild(PropScale[1]):Destroy()
-        task.wait(PropScale[2])
+    if LPHum and LPHum.BodyType == Enum.BodyType.R15 then
+        for _, PropScale in pairs(ToRemove) do
+            RemoveScale()
+            LPHum:FindFirstChild(PropScale[1]):Destroy()
+            task.wait(PropScale[2])
+        end
     end
 end
 
