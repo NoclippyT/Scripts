@@ -31,7 +31,7 @@ local function RemoveScale()
 end
 
 function TinyR15()
-    if LPHum and LPHum.BodyType == Enum.BodyType.R15 then
+    if LPHum and LPHum.RigType == Enum.RigType.R15 then
         for _, PropScale in pairs(ToRemove) do
             RemoveScale()
             LPHum:FindFirstChild(PropScale[1]):Destroy()
