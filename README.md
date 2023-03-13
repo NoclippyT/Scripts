@@ -1,1 +1,1 @@
-# I'm not responsible for whatever happens to whoever uses my scripts.
+# I'm not responsible for whoever uses my scripts.
